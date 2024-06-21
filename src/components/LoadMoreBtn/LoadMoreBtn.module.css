@@ -1,0 +1,17 @@
+.container {
+  display: block;
+  cursor: pointer;
+  border: 0 none;
+  border-radius: 2px;
+  background-color: darkblue;
+  padding: 8px 24px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+
+  transition: background-color 0.25s linear;
+
+  &:hover {
+    background-color: rgba(0, 0, 139, 0.8);
+  }
+}

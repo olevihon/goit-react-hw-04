@@ -1,0 +1,50 @@
+.container {
+  background-color: darkblue;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.form {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+}
+
+.input {
+  display: block;
+  border: 0 none;
+  width: 100%;
+  font-size: 18px;
+  height: 44px;
+  background-color: white;
+  border-radius: 4px;
+  padding-left: calc(8px + 24px + 8px);
+  padding-right: 8px;
+  outline: 0 none;
+}
+
+.btn {
+  display: block;
+  cursor: pointer;
+  -webkit-appearance: none;
+  background-color: transparent;
+  padding: 0;
+  border: 0 none;
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.icon {
+  color: darkgray;
+  transition: color 0.25s linear;
+  width: 24px;
+  height: 24px;
+}
+
+.icon:hover {
+  color: black;
+}
